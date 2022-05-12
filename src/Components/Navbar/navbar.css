@@ -1,0 +1,40 @@
+.nav-container {
+    background-color: #8667F2;
+    width: 100vw;
+    height: 7vh;
+    min-height: 61.73px;
+    display: flex;
+    place-items: center;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 2%;
+    float: left;
+}
+
+.nav-input {
+    width: 25vw;
+    min-height: 25px;
+    border: none;
+}
+
+.nav-buttons {
+    margin-right: 2%;
+    
+}
+
+.btn {
+    margin-left: 1vw;
+    min-height: 30px;
+    min-width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #8667F2;
+    font-size: 0.8em;
+    font-weight: bold;
+}
