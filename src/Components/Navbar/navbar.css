@@ -7,10 +7,13 @@
     place-items: center;
     gap: 2em;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 .nav-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #FFFFFF;
     margin-left: 2%;
     float: left;
@@ -44,6 +47,7 @@
     background-color: #FFFFFF;
     min-height: 30px;
     margin: 2px;
+    color:#8667F2;
 }
 
 .line-break {
@@ -65,4 +69,18 @@
     color: #8667F2;
     font-size: 0.8em;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-login {
+    margin-left: 0.5vw;
+    min-height: 30px;
+    min-width: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E0E7FF;
+    color: #8667F2;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
 }
