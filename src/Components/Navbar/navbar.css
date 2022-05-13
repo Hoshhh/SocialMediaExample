@@ -16,10 +16,38 @@
     float: left;
 }
 
-.nav-input {
-    width: 25vw;
-    min-height: 25px;
+.search-container {
+    display: flex;
+    min-width: 27vw;
+    min-height: 30px;
     border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.nav-input {
+    max-width: 25vw;
+    min-width: 25vw;
+    min-height: 30px;
+    border: none;
+    margin: 2px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.nav-input:focus {
+    outline: none;
+}
+
+.nav-search-icon {
+    margin-left: 0px;
+    background-color: #FFFFFF;
+    min-height: 30px;
+    margin: 2px;
+}
+
+.line-break {
+    width: 100%;
 }
 
 .nav-buttons {
