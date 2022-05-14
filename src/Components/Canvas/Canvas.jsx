@@ -1,8 +1,13 @@
 import React from 'react'
+import '../Canvas/canvas.css'
 
 const Canvas = () => {
   return (
-    <div>Canvas</div>
+    <div className='container'>
+        <div className='feed-container'>
+            as
+        </div>
+    </div>
   )
 }
 

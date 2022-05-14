@@ -1,0 +1,24 @@
+.container {
+    background-color: cyan;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.feed-container {
+    height: calc(95vh - 5rem);
+    width: 35vw;
+    min-width: 260px;
+    background-color: red;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:913px) {
+    .feed-container{
+        width: 70vw;
+    }
+}
